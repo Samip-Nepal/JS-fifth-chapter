@@ -1,8 +1,17 @@
-let arr=[5,6,7,8,9];
-let output=arr.reduce((res,curr)=>{
-    return res>curr? res:curr;
+//pratice qn 3
+//1
+let marks=[60,92,87,90,78];
+let output=marks.filter((val)=>{
+    return val>=90;
 })
 console.log(output);
+
+
+// let arr=[5,6,7,8,9];
+// let output=arr.reduce((res,curr)=>{
+//     return res>curr? res:curr;
+// })
+// console.log(output);
 
 // let output=arr.reduce((res,curr)=>{
 //     return res*curr;
