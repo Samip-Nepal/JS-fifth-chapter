@@ -2,12 +2,12 @@
 //2
 let n=prompt("Enter the any number");
 let arr=[];
-for(let i=0;i<=n;i++)
+for(let i=1;i<=n;i++)
 {
     arr[i]=i;
 }
 let output=arr.reduce((previous,current)=>{
-return previous+current;
+return previous*current;
 })
 console.log(output);
 //1
