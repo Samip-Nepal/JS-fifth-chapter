@@ -1,10 +1,21 @@
 //pratice qn 3
-//1
-let marks=[60,92,87,90,78];
-let output=marks.filter((val)=>{
-    return val>=90;
+//2
+let n=prompt("Enter the any number");
+let arr=[];
+for(let i=0;i<=n;i++)
+{
+    arr[i]=i;
+}
+let output=arr.reduce((previous,current)=>{
+return previous+current;
 })
 console.log(output);
+//1
+// let marks=[60,92,87,90,78];
+// let output=marks.filter((val)=>{
+//     return val>=90;
+// })
+// console.log(output);
 
 
 // let arr=[5,6,7,8,9];
