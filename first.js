@@ -1,8 +1,14 @@
+//filter method
 let a=[4,5,6,7];
-let name=a.map((val)=>{
-    return val*5;
+let name=a.filter((val)=>{
+    return val%2===0;
 })
 console.log(name);
+// let a=[4,5,6,7];
+// let name=a.map((val)=>{
+//     return val*5;
+// })
+// console.log(name);
 
 //Pratice qn 2
 // let arr=[2,3,4,5];
