@@ -1,12 +1,16 @@
-//Pratice qn 2
-let arr=[2,3,4,5];
-arr.forEach((val)=>
-{
-    console.log(`The square of each numberis=${val*val}`);
-
+let a=[4,5,6,7];
+let name=a.map((val)=>{
+    return val*5;
 })
+console.log(name);
 
+//Pratice qn 2
+// let arr=[2,3,4,5];
+// arr.forEach((val)=>
+// {
+//     console.log(`The square of each numberis=${val*val}`);
 
+// })
 //for each loop {array}
 // let arr=["Samip","Nepal"];
 // arr.forEach((val,idx,arr)=> {
