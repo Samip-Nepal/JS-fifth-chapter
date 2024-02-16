@@ -1,8 +1,17 @@
+//Pratice qn 2
+let arr=[2,3,4,5];
+arr.forEach((val)=>
+{
+    console.log(`The square of each numberis=${val*val}`);
+
+})
+
+
 //for each loop {array}
-let arr=["Samip","Nepal"];
-arr.forEach((val,idx,arr)=> {
-    console.log(val.toUpperCase(),idx,arr);
-});// Use for doing tasks for each array.
+// let arr=["Samip","Nepal"];
+// arr.forEach((val,idx,arr)=> {
+//     console.log(val.toUpperCase(),idx,arr);
+// });// Use for doing tasks for each array.
 
 //Pratice qn 1
 // let vowels=(str)=>{
