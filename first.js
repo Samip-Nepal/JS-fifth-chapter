@@ -1,7 +1,7 @@
 //for each loop {array}
 let arr=["Samip","Nepal"];
-arr.forEach((val)=> {
-    console.log(val.toUpperCase());
+arr.forEach((val,idx,arr)=> {
+    console.log(val.toUpperCase(),idx,arr);
 });// Use for doing tasks for each array.
 
 //Pratice qn 1
