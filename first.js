@@ -1,9 +1,20 @@
-//filter method
-let a=[4,5,6,7];
-let name=a.filter((val)=>{
-    return val%2===0;
+let arr=[5,6,7,8,9];
+let output=arr.reduce((res,curr)=>{
+    return res>curr? res:curr;
 })
-console.log(name);
+console.log(output);
+
+// let output=arr.reduce((res,curr)=>{
+//     return res*curr;
+// })
+// console.log(output);
+
+//filter method
+// let a=[4,5,6,7];
+// let name=a.filter((val)=>{
+//     return val%2===0;
+// })
+// console.log(name);
 // let a=[4,5,6,7];
 // let name=a.map((val)=>{
 //     return val*5;
